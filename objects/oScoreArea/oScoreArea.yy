@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oPipeClearer",
-  "eventList":[],
+  "%Name":"oScoreArea",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oPipeClearer",
+  "name":"oScoreArea",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
@@ -14,7 +16,7 @@
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
-  "physicsGroup":0,
+  "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
   "physicsObject":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPipeCleaner",
-    "path":"sprites/sPipeCleaner/sPipeCleaner.yy",
+    "name":"sScoreArea",
+    "path":"sprites/sScoreArea/sScoreArea.yy",
   },
   "spriteMaskId":null,
   "visible":false,

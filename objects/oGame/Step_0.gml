@@ -1,0 +1,1 @@
+score_scale = lerp(score_scale, 3, 0.2);

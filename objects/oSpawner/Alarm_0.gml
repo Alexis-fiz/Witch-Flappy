@@ -1,5 +1,5 @@
 // Gap center with change limit
-var margin = 128;
+var margin = 124;
 var min_y = margin;
 var max_y = room_height - margin;
 
@@ -20,7 +20,7 @@ new_center = clamp(new_center, min_y, max_y);
 previous_gap_center = new_center;
 
 // Gap size (distance between pipes)
-var gap_size = random_range(160, 180);
+var gap_size = random_range(130, 180);
 
 // Spawn just off screen
 var spawn_x = room_width + 32;
@@ -42,6 +42,16 @@ var bottomPipe = instance_create_layer(
     oPipe
 );
 bottomPipe.sprite_index = sPipeBot;
+
+var scoreArea = instance_create_layer(
+    spawn_x,
+    new_center / 2,
+    "Instances",
+    oScoreArea
+);
+
+// Match gap size
+scoreArea.image_yscale = gap_size * 2;
 
 // Reset alarm
 alarm_set(0, interval_Time);
