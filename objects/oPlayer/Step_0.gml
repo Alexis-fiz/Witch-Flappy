@@ -20,8 +20,3 @@ if (y > yprevious) {
 // Smoothly interpolate to the target angle
 angle = lerp(angle, maxAngle, ROTATION_SPEED);
 image_angle = angle;
-
-// Optional: Add a death condition when hitting ground or ceiling
-if (y > room_height - 64 or y < 0) {
-    // game_restart(); or handle death state
-}
