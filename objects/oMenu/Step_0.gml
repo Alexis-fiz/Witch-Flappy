@@ -11,6 +11,7 @@ selected = (selected + array_length(options)) mod array_length(options);
 if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space)) {
 	switch (selected) {
         case 0: // PLAY
+			oGame.gameOver = false;
             room_goto(room_town);
             break;
 
