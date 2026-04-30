@@ -13,4 +13,6 @@ if (!oGame.gameOver) {
 
     angle = lerp(angle, maxAngle, ROTATION_SPEED);
     image_angle = angle;
+} else {
+	
 }

@@ -12,6 +12,8 @@ if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space)) {
 	switch (selected) {
         case 0: // PLAY
 			oGame.gameOver = false
+			oGame.hasPlayedDeathSound = false;
+			oGame.hasThemeSound = false;
             room_goto(room_town);
             break;
 

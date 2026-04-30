@@ -25,6 +25,8 @@
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
     {"name":"room_gameOver","order":2,"path":"rooms/room_gameOver/room_gameOver.yy",},
     {"name":"room_init","order":1,"path":"rooms/room_init/room_init.yy",},
+    {"name":"snd_score","order":1,"path":"sounds/snd_score/snd_score.yy",},
+    {"name":"snd_theme","order":2,"path":"sounds/snd_theme/snd_theme.yy",},
     {"name":"sFloor","order":6,"path":"sprites/sFloor/sFloor.yy",},
     {"name":"sLogo","order":4,"path":"sprites/sLogo/sLogo.yy",},
     {"name":"sPipeBot","order":1,"path":"sprites/sPipeBot/sPipeBot.yy",},

@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oPipeClearer",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPipe","path":"objects/oPipe/oPipe.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oPipeClearer",
   "overriddenProperties":[],

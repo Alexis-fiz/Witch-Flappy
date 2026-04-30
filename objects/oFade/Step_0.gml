@@ -1,4 +1,6 @@
 if (fading) {
+	with (oPlayer) instance_destroy();
+	with (oPipe) instance_destroy();
     fade_alpha += fade_speed * fade_dir;
     if (fade_alpha >= 1 && fade_dir == 1) {
         room_goto(target_room);
